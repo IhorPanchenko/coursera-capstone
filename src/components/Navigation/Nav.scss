@@ -1,0 +1,12 @@
+.navigation {
+  font-weight: 700;
+
+  ul {
+    display: flex;
+
+    a {
+      padding: 0 16px;
+      cursor: pointer;
+    }
+  }
+}

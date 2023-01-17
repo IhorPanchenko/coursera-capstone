@@ -1,0 +1,39 @@
+h2 {
+  font-size: 64px;
+  font-weight: 500;
+  padding-top: 35px;
+}
+
+form {
+  display: grid;
+  max-width: 200px;
+  gap: 20px;
+  padding: 35px 0 20px;
+
+  label {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  input[type="date"],
+  input[type="number"],
+  select,
+  option {
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+  }
+
+  input[type="submit"] {
+    display: block;
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    background: #f4ce14;
+    width: 180px;
+    padding: 10px 0;
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+}

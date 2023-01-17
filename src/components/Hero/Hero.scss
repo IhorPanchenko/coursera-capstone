@@ -1,0 +1,49 @@
+.hero .container {
+  color: #edefee;
+  background: #495e57;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  div:first-child {
+    width: 45%;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #f4ce14;
+    padding: 35px 0 15px;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  p {
+    font-weight: 500;
+    padding: 15px 0 8px;
+  }
+
+  .buttonLink {
+    margin-bottom: 25px;
+  }
+}
+
+.imgWrapper {
+  width: 45%;
+
+  .heroImg {
+    object-fit: cover;
+    position: absolute;
+    top: 65%;
+    left: 88.5%;
+    width: 20%;
+    height: 110%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+    z-index: 999;
+  }
+}

@@ -1,0 +1,53 @@
+.aboutWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0 85px;
+  position: relative;
+}
+
+.aboutInfo {
+  width: 45%;
+
+  h2 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #f4ce14;
+    padding-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #495e57;
+  }
+
+  p {
+    padding-top: 35px;
+  }
+}
+
+.aboutImg {
+  width: 45%;
+  left: 0;
+  top: 0;
+}
+
+.imgBottom,
+.imgTop {
+  width: 20%;
+  height: 65%;
+  position: absolute;
+  object-fit: cover;
+	border-radius: 18px;
+}
+
+.imgBottom {
+  top: 25%;
+  right: 10%;
+}
+
+.imgTop {
+  bottom: 25%;
+  right: 0;
+}

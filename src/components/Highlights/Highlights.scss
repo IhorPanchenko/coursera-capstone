@@ -1,0 +1,67 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0 35px;
+
+  h1 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #333333;
+  }
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+
+  .description {
+    width: 30%;
+
+    .imgWrapper {
+      position: relative;
+      width: 100%;
+      height: 230px;
+      overflow: hidden;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+      .dishImg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: auto;
+        height: 100%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+.descWrapper {
+  padding: 20px 15px 25px;
+  background: #edefee;
+
+  .nameAndPrice {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px;
+
+    .dishName {
+      font-weight: 800;
+    }
+
+    .price {
+      color: #ee9972;
+    }
+  }
+
+  a {
+    display: inline-block;
+    position: relative;
+    font-weight: 700;
+    margin-top: 35px;
+    cursor: pointer;
+  }
+}
